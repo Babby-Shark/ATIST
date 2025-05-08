@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+h1, h2, h3 {
+   
+}
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #FFFFFF;
+    padding: 20px;
+  }
+
+  /* Center content wrapper */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+  .header {
+    background-color: #0A0706;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+  }
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 40px 0;
+    background-color: #FFFFFF;
+
+  }
+
+  .b_element {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background: #F5F5F5;
+    box-shadow: 0 2px 8px rgba(18, 18, 18, 0.05);
+  }
+
+  .body_card1, .body_card {
+    font-size: x-large;
+    border: 1px solid #F5F5F5;
+    margin: 30px;
+    border-radius: 5px;
+    background-image: url("../Resources/images/Music Production.jpg");
+    background-size: 1000px;
+    width: 700px;
+    height: 600px;
+    padding: 20px;
+    box-shadow: #0A0706 1px 1px 20px;
+  }
+
+  .body_card_FL {
+    font-size: x-large;
+    border: 1px solid #F5F5F5;
+    margin: 30px;
+    border-radius: 5px;
+    background-image: url("../Resources/images/FL Studio.jpeg");
+    background-size: 1000px;
+    width: 700px;
+    height: 600px;
+    padding: 20px;
+    box-shadow: #0A0706 1px 1px 20px;
+  }
+
+  .body_card_live {
+    font-size: x-large;
+    border: 1px solid #F5F5F5;
+    margin: 30px;
+    border-radius: 5px;
+    background-image: url("../Resources/images/Ableton.jpeg");
+    background-size: 1000px;
+    width: 700px;
+    height: 600px;
+    padding: 20px;
+    box-shadow: #0A0706 1px 1px 20px;
+  }
+
+  .body_card_logic {
+    font-size: x-large;
+    border: 1px solid #F5F5F5;
+    margin: 30px;
+    border-radius: 5px;
+    background-image: url("../Resources/images/Recording in Logic pro.jpeg");
+    background-size: 1000px;
+    width: 700px;
+    height: 600px;
+    padding: 20px;
+    box-shadow: #0A0706 1px 1px 20px;
+  }
+
+.body_card_ProTools {
+    font-size: x-large;
+    border: 1px solid #F5F5F5;
+    margin: 30px;
+    border-radius: 5px;
+    background-image: url("../Resources/images/PRO TOOLS.jpeg");
+    background-size: 1000px;
+    width: 700px;
+    height: 600px;
+    padding: 20px;
+    box-shadow: #0A0706 1px 1px 20px;
+}
+
+  .footer {
+    background-color: #404241;
+    font-size: 0.9rem;
+    color: white;
+    
+  }
+
+  .footer-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Adds space on both sides */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #0A0706;
+    
+  }
+
+  .footer-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
