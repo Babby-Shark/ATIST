@@ -49,6 +49,7 @@ h1, h2, h3 {
   }
 
   .b_element {
+    font-size: large;
     display: flex;
     justify-content: center;
     padding: 30px;
@@ -56,12 +57,60 @@ h1, h2, h3 {
     box-shadow: 0 2px 8px rgba(18, 18, 18, 0.05);
   }
 
-  .body_card1, .body_card {
-    font-size: x-large;
+  .body_card_yt {
+    position: relative;
     border: 1px solid #F5F5F5;
     margin: 30px;
     border-radius: 5px;
-    background-image: url("../Resources/images/Music Production.jpg");
+    background: #7E4A26;
+    /*background: linear-gradient(90deg,rgba(126, 74, 38, 1) 0%, rgba(245, 245, 245, 1) 50%, rgba(35, 156, 160, 1) 100%);*/
+    background-image:
+    linear-gradient(
+        135deg,
+        rgba(35, 156, 160, 0.4) 0%,      /* First color starts */
+        rgba(126, 74, 38, 0.4) 50%, /* First color ends */
+        rgba(245, 245, 245, 0.4) 50%, /* Second color starts */
+        rgba(126, 74, 38, 0.4) 100%, /* Second color ends */
+        rgba(245, 245, 245, 0.4) 66.66%, /* Third color starts */
+        rgba(245, 245, 245, 0.4) 100%    /* Third color ends */
+      ),
+      url("../Resources/images/youtube-ads.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    background-size: 1000px;
+    width: 700px;
+    height: 600px;
+    padding: 20px;
+    box-shadow: #0A0706 1px 1px 20px;
+
+  }
+
+  .body_card_insta {
+    position: relative;
+    border: 1px solid #F5F5F5;
+    margin: 30px;
+    border-radius: 5px;
+    background: #7E4A26;
+    /*background: linear-gradient(90deg,rgba(126, 74, 38, 1) 0%, rgba(245, 245, 245, 1) 50%, rgba(35, 156, 160, 1) 100%);*/
+    background-image:
+    linear-gradient(
+        135deg,
+        rgba(35, 156, 160, 0.4) 0%,      /* First color starts */
+        rgba(126, 74, 38, 0.4) 50%, /* First color ends */
+        rgba(245, 245, 245, 0.4) 50%, /* Second color starts */
+        rgba(126, 74, 38, 0.4) 100%, /* Second color ends */
+        rgba(245, 245, 245, 0.4) 66.66%, /* Third color starts */
+        rgba(245, 245, 245, 0.4) 100%    /* Third color ends */
+      ),
+      url("../Resources/images/instagram-ads.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 12px;
+    overflow: hidden;
     background-size: 1000px;
     width: 700px;
     height: 600px;
@@ -70,7 +119,7 @@ h1, h2, h3 {
   }
 
   .body_card_FL {
-    font-size: x-large;
+    
     border: 1px solid #F5F5F5;
     margin: 30px;
     border-radius: 5px;
@@ -83,11 +132,24 @@ h1, h2, h3 {
   }
 
   .body_card_live {
-    font-size: x-large;
+    position: relative;
     border: 1px solid #F5F5F5;
     margin: 30px;
     border-radius: 5px;
-    background-image: url("../Resources/images/Ableton.jpeg");
+    background-image: 
+    linear-gradient(
+      135deg,
+      rgba(35, 156, 160, 0.4) 0%,      /* First color starts */
+      rgba(126, 74, 38, 0.4) 50%, /* First color ends */
+      rgba(245, 245, 245, 0.4) 50%, /* Second color starts */
+      rgba(126, 74, 38, 0.4) 100%, /* Second color ends */
+      rgba(245, 245, 245, 0.4) 66.66%, /* Third color starts */
+      rgba(245, 245, 245, 0.4) 100%    /* Third color ends */
+    ),
+      url("../Resources/images/Ableton.jpeg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
     background-size: 1000px;
     width: 700px;
     height: 600px;
@@ -96,7 +158,7 @@ h1, h2, h3 {
   }
 
   .body_card_logic {
-    font-size: x-large;
+    
     border: 1px solid #F5F5F5;
     margin: 30px;
     border-radius: 5px;
@@ -109,7 +171,7 @@ h1, h2, h3 {
   }
 
 .body_card_ProTools {
-    font-size: x-large;
+    
     border: 1px solid #F5F5F5;
     margin: 30px;
     border-radius: 5px;
