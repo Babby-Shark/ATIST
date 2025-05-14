@@ -4,138 +4,286 @@
     box-sizing: border-box;
   }
 
+  html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
 h1, h2, h3 {
-   
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: lighter;
+  
+}
+
+.body_card_insta:hover {
+  transition: transform 0.3s ease, letter-spacing 0.3s ease;
+  transform: scale(1.05);
+}
+
+.body_card_yt:hover {
+  transition: transform 0.3s ease, letter-spacing 0.3s ease;
+  transform: scale(1.05);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.h_link { 
+  padding: 20px 8%;
 }
 
   body {
+    margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
     line-height: 1.6;
     color: #333;
     background-color: #FFFFFF;
-    padding: 20px;
-  }
-
-  /* Center content wrapper */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding-top: 110px; /* match the header height */
   }
 
   .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* or whatever color */
+    z-index: 1000; /* make sure it's on top of other content */
+    margin: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* optional nice shadow */
     background-color: #0A0706;
     color: #fff;
-    padding: 20px 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 0px;
+    margin: 0px;
+  }
+
+  .tabs {
+    display: flex;
+    width: 50%;
+    align-items: center;
+  }
+
+  .logo {
+    padding-left: 200%;
   }
 
   .body {
     display: flex;
     flex-direction: column;
     color: white;
-    padding: 40px 0;
     background-color: #FFFFFF;
-
+    margin: 0;
   }
 
   .b_element {
-    font-size: large;
+    font-size: 14px;
     display: flex;
     justify-content: center;
     padding: 30px;
     background: #F5F5F5;
     box-shadow: 0 2px 8px rgba(18, 18, 18, 0.05);
+    margin: 20px;
   }
+
+  .b_element_vid {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    background: #F5F5F5;
+    box-shadow: 0 2px 8px rgba(18, 18, 18, 0.05);
+  }
+
+  .slideshow-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .slideshow-card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-size: cover;
+    background-position: center;
+    animation: slideShow 12s infinite;
+  }
+  
 
   .body_card_yt {
     position: relative;
     border: 1px solid #F5F5F5;
     margin: 30px;
-    border-radius: 5px;
-    background: #7E4A26;
-    /*background: linear-gradient(90deg,rgba(126, 74, 38, 1) 0%, rgba(245, 245, 245, 1) 50%, rgba(35, 156, 160, 1) 100%);*/
+    border-radius: 10px;
     background-image:
     linear-gradient(
-        135deg,
-        rgba(35, 156, 160, 0.4) 0%,      /* First color starts */
-        rgba(126, 74, 38, 0.4) 50%, /* First color ends */
-        rgba(245, 245, 245, 0.4) 50%, /* Second color starts */
-        rgba(126, 74, 38, 0.4) 100%, /* Second color ends */
-        rgba(245, 245, 245, 0.4) 66.66%, /* Third color starts */
-        rgba(245, 245, 245, 0.4) 100%    /* Third color ends */
-      ),
-      url("../Resources/images/youtube-ads.png");
+      135deg,
+      rgba(35, 156, 160, 0.4) 0%,      /* First color starts */
+      rgba(126, 74, 38, 0.4) 50%, /* First color ends */
+      rgba(245, 245, 245, 0.4) 50%, /* Second color starts */
+      rgba(126, 74, 38, 0.4) 100%, /* Second color ends */
+      rgba(10, 7, 6, 1) 66.66%, /* Third color starts */
+      rgba(10, 7, 6, 1) 100%    /* Third color ends */
+    ),
+      url("../Resources/images/young-man-enjoying-movie-night_23-2149307344.avif");
     background-size: cover;
     background-position: center;
-    color: white;
-    border-radius: 12px;
     overflow: hidden;
     background-size: 1000px;
-    width: 700px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
     padding: 20px;
-    box-shadow: #0A0706 1px 1px 20px;
-
+    
   }
 
   .body_card_insta {
     position: relative;
     border: 1px solid #F5F5F5;
     margin: 30px;
-    border-radius: 5px;
-    background: #7E4A26;
-    /*background: linear-gradient(90deg,rgba(126, 74, 38, 1) 0%, rgba(245, 245, 245, 1) 50%, rgba(35, 156, 160, 1) 100%);*/
+    border-radius: 10px;
     background-image:
     linear-gradient(
-        135deg,
-        rgba(35, 156, 160, 0.4) 0%,      /* First color starts */
-        rgba(126, 74, 38, 0.4) 50%, /* First color ends */
-        rgba(245, 245, 245, 0.4) 50%, /* Second color starts */
-        rgba(126, 74, 38, 0.4) 100%, /* Second color ends */
-        rgba(245, 245, 245, 0.4) 66.66%, /* Third color starts */
-        rgba(245, 245, 245, 0.4) 100%    /* Third color ends */
-      ),
-      url("../Resources/images/instagram-ads.jpeg");
+      135deg,
+      rgba(35, 156, 160, 0.4) 0%,      /* First color starts */
+      rgba(126, 74, 38, 0.4) 50%, /* First color ends */
+      rgba(245, 245, 245, 0.4) 50%, /* Second color starts */
+      rgba(126, 74, 38, 0.4) 100%, /* Second color ends */
+      rgba(10, 7, 6, 1) 66.66%, /* Third color starts */
+      rgba(10, 7, 6, 1) 100%    /* Third color ends */
+    ),
+      url("../Resources/images/portrait-young-man-using-laptop-while-sitting-sofa-home_1048944-14052773.jpeg");
     background-size: cover;
     background-position: center;
-    color: white;
-    border-radius: 12px;
     overflow: hidden;
     background-size: 1000px;
-    width: 700px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
     padding: 20px;
-    box-shadow: #0A0706 1px 1px 20px;
+    
+  }
+
+  .body_card_website {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+    border: 1px solid #F5F5F5;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-size: 1000px;
+    padding: 5% 13%;
+  }
+
+  .website_info {
+    position: relative;
+    border: 1px solid #F5F5F5;
+    margin: 30px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: #239CA0;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-weight: 900;
   }
 
   .body_card_FL {
-    
+    position: relative;
     border: 1px solid #F5F5F5;
     margin: 30px;
-    border-radius: 5px;
-    background-image: url("../Resources/images/FL Studio.jpeg");
+    border-radius: 10px;
+    background-image:
+    linear-gradient(
+      135deg,
+      rgba(35, 156, 160, 0.4) 0%,      /* First color starts */
+      rgba(126, 74, 38, 0.4) 50%, /* First color ends */
+      rgba(245, 245, 245, 0.4) 50%, /* Second color starts */
+      rgba(126, 74, 38, 0.4) 100%, /* Second color ends */
+      rgba(10, 7, 6, 1) 66.66%, /* Third color starts */
+      rgba(10, 7, 6, 1) 100%    /* Third color ends */
+    ),
+      url("../Resources/images/male-musician-home-playing-drums-mixing-with-laptop_23-2148847022.jpeg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
     background-size: 1000px;
-    width: 700px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
     padding: 20px;
-    box-shadow: #0A0706 1px 1px 20px;
+    
   }
 
   .body_card_live {
     position: relative;
     border: 1px solid #F5F5F5;
     margin: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
+    background-image: 
+    linear-gradient(
+        135deg,
+        rgba(35, 156, 160, 0.4) 0%,      /* First color starts */
+        rgba(126, 74, 38, 0.4) 70%, /* First color ends */
+        rgba(245, 245, 245, 0.4) 70%, /* Second color starts */
+        rgba(126, 74, 38, 0.4) 95%, /* Second color ends */
+        rgba(245, 245, 245, 0.4) 95%, /* Third color starts */
+        rgba(245, 245, 245, 0.4) 100%    /* Third color ends */
+      ),
+      url("../Resources/images/sound-designer-recording-his-electronic-piano-notes-home-studio_482257-97859.jpeg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-size: 1000px;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    
+  }
+
+  .body_card_logic {
+    
+    border: 1px solid #F5F5F5;
+    margin: 30px;
+    border-radius: 10px;
+    background-image: 
+    linear-gradient(
+      135deg,
+      rgba(35, 156, 160, 0.4) 0%,      /* First color starts */
+      rgba(126, 74, 38, 0.4) 30%, /* First color ends */
+      rgba(245, 245, 245, 0.4) 30%, /* Second color starts */
+      rgba(126, 74, 38, 0.4) 95%, /* Second color ends */
+      rgba(245, 245, 245, 0.4) 95%, /* Third color starts */
+      rgba(245, 245, 245, 0.4) 100%    /* Third color ends */
+    ),
+      url("../Resources/images/side-view-musicians-working-studio_23-2150265051.jpeg");
+    background-size: 1000px;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    
+  }
+
+  .body_card_ProTools {
+    
+    border: 1px solid #F5F5F5;
+    margin: 30px;
+    border-radius: 10px;
     background-image: 
     linear-gradient(
       135deg,
@@ -143,51 +291,32 @@ h1, h2, h3 {
       rgba(126, 74, 38, 0.4) 50%, /* First color ends */
       rgba(245, 245, 245, 0.4) 50%, /* Second color starts */
       rgba(126, 74, 38, 0.4) 100%, /* Second color ends */
-      rgba(245, 245, 245, 0.4) 66.66%, /* Third color starts */
-      rgba(245, 245, 245, 0.4) 100%    /* Third color ends */
+      rgba(10, 7, 6, 1) 66.66%, /* Third color starts */
+      rgba(10, 7, 6, 1) 100%    /* Third color ends */
     ),
-      url("../Resources/images/Ableton.jpeg");
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
+      url("../Resources/images/digital-mixer-recording-studio-with-computer-recording-sounds-music_169016-3815.jpeg");
     background-size: 1000px;
-    width: 700px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
     padding: 20px;
-    box-shadow: #0A0706 1px 1px 20px;
   }
 
-  .body_card_logic {
-    
-    border: 1px solid #F5F5F5;
-    margin: 30px;
-    border-radius: 5px;
-    background-image: url("../Resources/images/Recording in Logic pro.jpeg");
-    background-size: 1000px;
-    width: 700px;
-    height: 600px;
-    padding: 20px;
-    box-shadow: #0A0706 1px 1px 20px;
+  .body_card_yt.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
   }
-
-.body_card_ProTools {
-    
-    border: 1px solid #F5F5F5;
-    margin: 30px;
-    border-radius: 5px;
-    background-image: url("../Resources/images/PRO TOOLS.jpeg");
-    background-size: 1000px;
-    width: 700px;
-    height: 600px;
-    padding: 20px;
-    box-shadow: #0A0706 1px 1px 20px;
-}
 
   .footer {
-    background-color: #404241;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(10, 7, 6, 0.6); /* or whatever color */
+    z-index: 1000; /* make sure it's on top of other content */
+    margin: 0;
     font-size: 0.9rem;
     color: white;
-    
+    padding: 50px;
   }
 
   .footer-container {
@@ -199,7 +328,6 @@ h1, h2, h3 {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #0A0706;
     
   }
 
