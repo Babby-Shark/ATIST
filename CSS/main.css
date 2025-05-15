@@ -31,12 +31,20 @@ a {
   color: white;
 }
 
-a:hover {
+h3:hover {
   opacity: 0.7;
 }
 
 .h_link { 
   padding: 20px 8%;
+}
+
+.h_link:hover .dropdown {
+  display: flex;
+}
+
+.h_link:hover .dropdown_tools {
+  display: flex;
 }
 
   body {
@@ -53,12 +61,10 @@ a:hover {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #ffffff; /* or whatever color */
     z-index: 1000; /* make sure it's on top of other content */
     margin: 0;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* optional nice shadow */
     background-color: #0A0706;
-    color: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     display: flex;
     justify-content: space-between;
@@ -75,6 +81,65 @@ a:hover {
 
   .logo {
     padding-left: 200%;
+  }
+
+  .h_icons {
+    display: flex;
+  }
+
+  .dropdown {
+    display: none;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 100%; /* just below the tab */
+    left: 0;
+    background: #1b1514;
+    padding: 1rem;
+    margin-left: 40%;
+    margin-top: -2%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 2000;
+    border-radius: 8px;
+    width: 700px;
+  }
+
+  .dropdown_tools {
+    display: none;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 100%; /* just below the tab */
+    left: 0;
+    background: #1b1514;
+    padding: 1rem;
+    margin-left: 55%;
+    margin-top: -2%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 2000;
+    border-radius: 8px;
+    width: 700px;
+  }
+
+  .card > p {
+    font-size: small;
+    font-weight: lighter;
+  }
+
+  .card > h3 {
+    color: #239CA0;
+  }
+
+  .card {
+    background: #0A0706;
+    margin: 5px;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+    padding: 5px;
+    width: 320px;
+    height: 100px;
+  }
+
+  .card:hover {
+    transform: scale(1.01);
   }
 
   .body {
@@ -323,7 +388,7 @@ a:hover {
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px; /* Adds space on both sides */
+    padding: 10px 20px; /* Adds space on both sides */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -335,4 +400,18 @@ a:hover {
     list-style: none;
     display: flex;
     gap: 15px;
+  }
+
+  .ft_card {
+    background: #0A0706;
+    margin: 5px;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+    padding: 5px;
+    width: 320px;
+    height: 100px;
+  }
+
+  hr {
+    margin-top: 30px;
   }
