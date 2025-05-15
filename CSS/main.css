@@ -16,6 +16,10 @@ h1, h2, h3 {
   
 }
 
+h2 {
+  font-weight: bold;
+}
+
 .body_card_insta:hover {
   transition: transform 0.3s ease, letter-spacing 0.3s ease;
   transform: scale(1.05);
@@ -24,6 +28,22 @@ h1, h2, h3 {
 .body_card_yt:hover {
   transition: transform 0.3s ease, letter-spacing 0.3s ease;
   transform: scale(1.05);
+}
+
+.body_card_FL:hover {
+  opacity: 0.8;
+}
+
+.body_card_live:hover {
+  opacity: 0.8;
+}
+
+.body_card_logic:hover {
+  opacity: 0.8;
+}
+
+.body_card_ProTools:hover {
+  opacity: 0.8;
 }
 
 a {
@@ -168,44 +188,12 @@ h3:hover {
     box-shadow: 0 2px 8px rgba(18, 18, 18, 0.05);
   }
 
-  .slideshow-card {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    overflow: hidden;
-  }
-
-  .slideshow-card::before {
-    content: "";
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    background-size: cover;
-    background-position: center;
-    animation: slideShow 12s infinite;
-  }
-  
-
   .body_card_yt {
     position: relative;
     border: 1px solid #F5F5F5;
     margin: 30px;
     border-radius: 10px;
-    background-image:
-    linear-gradient(
-      135deg,
-      rgba(35, 156, 160, 0.4) 0%,      /* First color starts */
-      rgba(126, 74, 38, 0.4) 50%, /* First color ends */
-      rgba(245, 245, 245, 0.4) 50%, /* Second color starts */
-      rgba(126, 74, 38, 0.4) 100%, /* Second color ends */
-      rgba(10, 7, 6, 1) 66.66%, /* Third color starts */
-      rgba(10, 7, 6, 1) 100%    /* Third color ends */
-    ),
-      url("../Resources/images/young-man-enjoying-movie-night_23-2149307344.avif");
+    background: url("../Resources/images/young-man-enjoying-movie-night_23-2149307344.avif");
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -221,17 +209,7 @@ h3:hover {
     border: 1px solid #F5F5F5;
     margin: 30px;
     border-radius: 10px;
-    background-image:
-    linear-gradient(
-      135deg,
-      rgba(35, 156, 160, 0.4) 0%,      /* First color starts */
-      rgba(126, 74, 38, 0.4) 50%, /* First color ends */
-      rgba(245, 245, 245, 0.4) 50%, /* Second color starts */
-      rgba(126, 74, 38, 0.4) 100%, /* Second color ends */
-      rgba(10, 7, 6, 1) 66.66%, /* Third color starts */
-      rgba(10, 7, 6, 1) 100%    /* Third color ends */
-    ),
-      url("../Resources/images/portrait-young-man-using-laptop-while-sitting-sofa-home_1048944-14052773.jpeg");
+    background-image: url("../Resources/images/portrait-young-man-using-laptop-while-sitting-sofa-home_1048944-14052773.jpeg");
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -274,17 +252,7 @@ h3:hover {
     border: 1px solid #F5F5F5;
     margin: 30px;
     border-radius: 10px;
-    background-image:
-    linear-gradient(
-      135deg,
-      rgba(35, 156, 160, 0.4) 0%,      /* First color starts */
-      rgba(126, 74, 38, 0.4) 50%, /* First color ends */
-      rgba(245, 245, 245, 0.4) 50%, /* Second color starts */
-      rgba(126, 74, 38, 0.4) 100%, /* Second color ends */
-      rgba(10, 7, 6, 1) 66.66%, /* Third color starts */
-      rgba(10, 7, 6, 1) 100%    /* Third color ends */
-    ),
-      url("../Resources/images/male-musician-home-playing-drums-mixing-with-laptop_23-2148847022.jpeg");
+    background-image: url("../Resources/images/male-musician-home-playing-drums-mixing-with-laptop_23-2148847022.jpeg");
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -300,17 +268,7 @@ h3:hover {
     border: 1px solid #F5F5F5;
     margin: 30px;
     border-radius: 10px;
-    background-image: 
-    linear-gradient(
-        135deg,
-        rgba(35, 156, 160, 0.4) 0%,      /* First color starts */
-        rgba(126, 74, 38, 0.4) 70%, /* First color ends */
-        rgba(245, 245, 245, 0.4) 70%, /* Second color starts */
-        rgba(126, 74, 38, 0.4) 95%, /* Second color ends */
-        rgba(245, 245, 245, 0.4) 95%, /* Third color starts */
-        rgba(245, 245, 245, 0.4) 100%    /* Third color ends */
-      ),
-      url("../Resources/images/sound-designer-recording-his-electronic-piano-notes-home-studio_482257-97859.jpeg");
+    background-image: url("../Resources/images/sound-designer-recording-his-electronic-piano-notes-home-studio_482257-97859.jpeg");
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -326,17 +284,7 @@ h3:hover {
     border: 1px solid #F5F5F5;
     margin: 30px;
     border-radius: 10px;
-    background-image: 
-    linear-gradient(
-      135deg,
-      rgba(35, 156, 160, 0.4) 0%,      /* First color starts */
-      rgba(126, 74, 38, 0.4) 30%, /* First color ends */
-      rgba(245, 245, 245, 0.4) 30%, /* Second color starts */
-      rgba(126, 74, 38, 0.4) 95%, /* Second color ends */
-      rgba(245, 245, 245, 0.4) 95%, /* Third color starts */
-      rgba(245, 245, 245, 0.4) 100%    /* Third color ends */
-    ),
-      url("../Resources/images/side-view-musicians-working-studio_23-2150265051.jpeg");
+    background-image: url("../Resources/images/side-view-musicians-working-studio_23-2150265051.jpeg");
     background-size: 1000px;
     width: 400px;
     height: 400px;
@@ -349,17 +297,7 @@ h3:hover {
     border: 1px solid #F5F5F5;
     margin: 30px;
     border-radius: 10px;
-    background-image: 
-    linear-gradient(
-      135deg,
-      rgba(35, 156, 160, 0.4) 0%,      /* First color starts */
-      rgba(126, 74, 38, 0.4) 50%, /* First color ends */
-      rgba(245, 245, 245, 0.4) 50%, /* Second color starts */
-      rgba(126, 74, 38, 0.4) 100%, /* Second color ends */
-      rgba(10, 7, 6, 1) 66.66%, /* Third color starts */
-      rgba(10, 7, 6, 1) 100%    /* Third color ends */
-    ),
-      url("../Resources/images/digital-mixer-recording-studio-with-computer-recording-sounds-music_169016-3815.jpeg");
+    background-image: url("../Resources/images/digital-mixer-recording-studio-with-computer-recording-sounds-music_169016-3815.jpeg");
     background-size: 1000px;
     width: 400px;
     height: 400px;
@@ -376,7 +314,7 @@ h3:hover {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(10, 7, 6, 0.6); /* or whatever color */
+    background-color: #0A0706;
     z-index: 1000; /* make sure it's on top of other content */
     margin: 0;
     font-size: 0.9rem;
@@ -404,14 +342,61 @@ h3:hover {
 
   .ft_card {
     background: #0A0706;
-    margin: 5px;
-    border-radius: 6px;
-    transition: transform 0.3s ease;
-    padding: 5px;
-    width: 320px;
-    height: 100px;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 2rem auto 0 auto;
+  }
+
+  .ft_card h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .subscribe-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .subscribe-form input[type="email"] {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    flex: 1 1 250px;
+    max-width: 400px;
+  }
+  
+  .subscribe-form button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #7E4A26;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .subscribe-form button:hover {
+    background-color: #5f361c;
   }
 
   hr {
     margin-top: 30px;
+  }
+
+  li > a:hover {
+    opacity: 0.6;
+  }
+
+  #copyright {
+    padding-left: 26%;
+  }
+
+  #ft_ATIST {
+    padding-left: 29%;
   }
