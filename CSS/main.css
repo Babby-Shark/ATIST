@@ -247,6 +247,10 @@ h3:hover {
     font-weight: 900;
   }
 
+  .webinfo_img {
+    max-width: 150%;
+  }
+
   .body_card_FL {
     position: relative;
     border: 1px solid #F5F5F5;
@@ -400,3 +404,208 @@ h3:hover {
   #ft_ATIST {
     padding-left: 29%;
   }
+
+
+  /* Base Mobile Styles */
+.mobile-header {
+  position: relative;
+  background: #0A0706;
+  padding: 1rem;
+  z-index: 999;
+}
+
+.menu-toggle {
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+}
+
+.mobile-nav {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #0A0706;
+  width: 100%;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.mobile-nav a {
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  display: block;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mobile-nav a:hover {
+  background: #0A0706;
+}
+
+@media (max-width: 768px) {
+  .mobile-header {
+    display: block;
+  }
+
+  .header { /* Hide tabs */
+    display: none;
+  }
+
+  .video-background {
+    display: none;
+  }
+
+  .video-background2 {
+    position: relative;
+    width: 100%;
+    height: 70vh; /* or set your preferred height */
+    overflow: hidden;
+  }
+
+  .video-background2 video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    object-fit: cover;
+    filter: brightness(0.6); /* optional: darken for readability */
+  }
+
+  .video-background2 .content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: left;
+    padding-left: 18%;
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-weight: 900;
+  }
+  
+  .b_element {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 1%;
+  } 
+  
+  .body_card_insta {
+    margin: 7% 1%;
+    width: 100%;
+    height: 300px;
+    padding: 2%;
+  }
+
+  .body_card_yt {
+    margin: 7% 1%;
+    width: 100%;
+    height: 300px;
+    padding: 2%;
+  }
+
+  .body_card_live {
+    margin: 7% 1%;
+    width: 100%;
+    height: 300px;
+    padding: 2%;
+  }
+
+  .body_card_FL {
+    margin: 7% 1%;
+    width: 100%;
+    height: 300px;
+    padding: 2%;
+  }
+
+  .body_card_logic {
+    margin: 7% 1%;
+    width: 100%;
+    height: 300px;
+    padding: 2%;
+  }
+
+  .body_card_ProTools {
+    margin: 7% 1%;
+    width: 100%;
+    height: 300px;
+    padding: 2%;
+  }
+
+  .body_card_website {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    border: 1px solid #F5F5F5;
+    margin: 1%;
+    border-radius: 5px;
+    overflow: hidden;
+    background-size: 1000px;
+    padding: 1% 2%;
+  }
+
+  .website_info {
+    position: relative;
+    border: 1px solid #F5F5F5;
+    margin: 1%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: #239CA0;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-weight: 900;
+  }
+
+  .webinfo_img {
+    width: 100%;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #FFFFFF;
+    padding-top: 0;
+  }
+
+  .footer-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+
+  #copyright {
+    padding-left: 4%;
+  }
+
+  #ft_ATIST {
+    padding-left: 29%;
+  }
+}
+
+@media (min-width: 769px) {
+    .mobile-header {
+    display: none;
+  }
+
+  .video-background2 {
+    display: none;
+  }
+}
