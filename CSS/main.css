@@ -163,7 +163,7 @@ h3:hover {
   }
 
   .body {
-    display: flex;
+    
     flex-direction: column;
     color: white;
     background-color: rgb(4, 0, 0);

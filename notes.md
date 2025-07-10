@@ -4,3 +4,121 @@ Pushing changes to git
     - git add .
     - git commit -am "commit message"
     - git push origin master
+
+<div class="b_element">
+                    
+                    <a href="#">
+                        <div class="body_card_insta">
+                            <h2>Instagram adz that work</h2>
+                            <br>
+                            <div>
+                                Instagram ads are a powerful tool for promoting music, allowing artists to reach highly targeted audiences through eye-catching visuals, short videos, or Reels.
+                                With options like Stories, Feed, and Explore placements, musicians can showcase their latest tracks, drive traffic to streaming platforms, or grow their fanbase.
+                                Using tools like Meta Ads Manager, artists can set precise goals, choose target demographics, and track performance to optimize campaigns.
+                                When done right, Instagram ads help upcoming artists build visibility and connect directly with listeners who vibe with their sound.
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="body_card_yt">
+                            <h2>Youtube Adz</h2>
+                            <br>
+                            <div>
+                                YouTube ads are an effective way to push an artist's music by placing their songs directly in front of highly engaged viewers.
+                                With ad formats like skippable video ads, bumper ads, and YouTube Shorts, artists can showcase music videos, teasers,
+                                or behind-the-scenes content to targeted audiences based on interests, location, or viewing history. These ads can drive streams, build subscribers,
+                                and grow recognition fast—especially when paired with smart targeting and eye-catching visuals.
+                                For emerging artists, YouTube ads offer a direct route to getting heard and building a loyal fanbase across the globe.
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+                
+
+            <div class="b_element">
+                    
+                    <a href="#">
+                        <div class="body_card_website">
+                            <br>
+                            <div class="website_info">
+                                <h3>Custom Artist Website Development</h3>
+                            </div>
+
+                            <div>
+                                <img src="../Resources/images/laptop-2838921_1920-removebg-preview.png" alt="" class="webinfo_img">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div>
+                <div class="b_element">
+                    <a href="#">
+                        <div class="body_card_live">
+                        
+                            <h2>Music Production in Ableton</h2>
+                            <br>
+                            <div>
+                                A music production course in Ableton Live teaches aspiring producers how to create, record, mix,
+                                and master music using Ableton’s unique session and arrangement views.
+                                Students learn the fundamentals of beat making, sound design with built-in instruments like Wavetable and Operator,
+                                and how to use effects such as EQ Eight, Glue Compressor, and Reverb.
+                                The course covers recording audio and MIDI, warping, clip launching, and building full tracks.
+                                It also explores creative workflows like resampling and automation.
+                                Business-focused modules introduce distribution, branding, and how to promote music through platforms like YouTube and Instagram.
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="#">
+                        <div class="body_card_FL">
+
+                            <h2>Music Production in FL Studio</h2>
+                            <br>
+                            <div>
+                                A music production course in FL Studio guides upcoming producers through the full process of making music with one of the most intuitive DAWs.
+                                Students learn how to compose using the Piano Roll, build beats in the Step Sequencer, and arrange full tracks in the Playlist view.
+                                The course includes sound design with plugins like Sytrus and FLEX, mixing with the Mixer, and using effects such as Fruity Parametric EQ 2 and Maximus.
+                                It also covers automation, sampling, and exporting for release.
+                                Additional lessons focus on artist branding, marketing on social platforms,
+                                and preparing music for digital distribution.
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="#">
+                        <div class="body_card_ProTools">
+
+                            <h2>Mixing and Mastering in Pro Tools</h2>
+                            <br>
+                            <div>
+                                A mixing and mastering course in Pro Tools teaches artists and engineers how to professionally balance, enhance
+                                and finalize their music using one of the industry’s leading DAWs.
+                                Students learn how to organize sessions, apply EQ, compression, reverb, and other effects to shape a clean, dynamic mix.
+                                The course also covers advanced techniques like bus routing, automation, vocal processing, stereo imaging.
+                                In the mastering phase, students explore loudness optimization, final EQ, limiting, and preparing tracks for digital platforms.
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="b_element">
+
+                    <a href="#">
+                        <div class="body_card_logic">
+
+                            <h2>Recording In Logic Pro</h2>
+                            <br>
+                            <div>
+                                A recording course in Logic Pro teaches artists how to capture high-quality audio using one of the most powerful and user-friendly DAWs available.
+                                Students learn how to set up audio and MIDI tracks, properly use microphones and interfaces, and record vocals and instruments with clarity.
+                                It also introduces signal flow and session organization to ensure efficient workflows.
+                            </div>
+                        </div>
+                    </a> 
+                </div>

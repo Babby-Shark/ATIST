@@ -4,13 +4,24 @@
       <link rel="stylesheet" href="../CSS/main.css">
       <link rel="stylesheet" href="../CSS/beatvault.css">
   </head>
+  
   <body>
       <?php include('../partials/header.php'); ?>
-
-      <div data-layer="Landing page" class="LandingPage" style="width: 1440px; height: 4811px; color: white; position: relative; background:rgb(4, 0, 0); overflow: hidden">
-        <div data-layer="Hero Image" class="HeroImage" style="width: 1280px; height: 640px; left: 80px; top: 581px; position: absolute; overflow: hidden; border-radius: 8px; background-image: url()">
-            <img data-layer="gang in the stu.... album in the works 🔥 1" class="GangInTheStuAlbumInTheWorks1" style="width: 1280px; height: 1280px; left: 0px; top: -586px; position: absolute" src="../Resources/images/beatvaultmain2.jpg"/>
-        </div>
+      
+      <div data-layer="Landing page" class="LandingPage" style="width: 1440px; height: 4811px; color: white; position: relative; background:rgb(4, 0, 0)">
+      
+      <div data-layer="Header with image" class="HeaderWithImage" style="width: 1442px; height: 720px; background-image: url(../Resources/images/male-musician-home-playing-drums-mixing-with-laptop_23-2148847022.jpeg)">
+          <div data-layer="Dimmer" class="Dimmer" style="width: 1442px; height: 720px; left: 0px; top: 0px; position: absolute; background: rgba(0, 0, 0, 0.24)"></div>
+          <div data-layer="Copy" class="Copy" style="width: 844px; left: 299px; top: 284px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: center; gap: 40px; display: inline-flex">
+            <div data-layer="Page Title" class="PageTitle" style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
+              <div data-layer="Shop title" class="ShopTitle" style="align-self: stretch; text-align: center; color: white; font-size: 64px; font-family: Inter; font-weight: 700; line-height: 89.60px; word-wrap: break-word">Unlock the Sound, Welcome to BeatVault.</div>
+              <div data-layer="Subheading with description of your shopping site" class="SubheadingWithDescriptionOfYourShoppingSite" style="align-self: stretch; text-align: center; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 24px; font-family: Inter; font-weight: 500; line-height: 33.60px; word-wrap: break-word">
+                Browse fire beats or request your own custom sound. BeatVault is where artists come to grab their soul merging beats.
+              </div>
+            </div>
+          </div>
+      </div>
+      
       <div data-layer="Featured Beats" class="FeaturedBeats" style="width: 624px; left: 80px; top: 1371px; position: absolute; color: white; font-size: 48px; font-family: Inter; font-weight: 600; word-wrap: break-word">
           Featured Beats
       </div>
@@ -45,7 +56,9 @@
         Browse & Buy
       </div>
       <div data-layer="Cards" class="Cards" style="width: 1280px; left: 80px; top: 3188px; position: absolute; justify-content: flex-start; align-items: center; gap: 31px; display: inline-flex">
-        <div data-layer="Card" class="bv-Card" style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 32px; display: inline-flex">
+        
+        <a href="../subpages/beats.php">
+          <div data-layer="Card" class="bv-Card" style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 32px; display: inline-flex">
           <img data-layer="Image" class="Image" style="align-self: stretch; height: 341px; position: relative; border-radius: 8px" src="../Resources/images/featured1.jpeg" />
           <div data-layer="Copy" class="Copy" style="width: 548.44px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
             <div data-layer="Subheading" class="Subheading" style="width: 548px; color: white; font-size: 24px; font-weight: 500; line-height: 36px; word-wrap: break-word">
@@ -53,6 +66,8 @@
             </div>
             <div data-layer="Rectangle" class="Rectangle" style="width: 603.50px; height: 54px; background: #D9D9D9"></div>
           </div>
+        </a>
+        
         </div>
         <div data-layer="Card" class="bv-Card" style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 32px; display: inline-flex">
           <img data-layer="Image" class="Image" style="align-self: stretch; height: 341px; position: relative; border-radius: 8px" src="../Resources/images/featured2.jpeg" />
@@ -118,19 +133,6 @@
           </div>
         </div>
       </div>
-      <div data-layer="Copy" class="Copy" style="width: 844px; left: 79px; top: 212px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 40px; display: inline-flex">
-        <div data-layer="Page title" class="PageTitle" style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
-          <div data-layer="Unlock the Sound, Welcome to BeatVault." class="UnlockTheSoundWelcomeToBeatvault" style="align-self: stretch; color: white; font-size: 64px; font-family: Inter; font-weight: 700; word-wrap: break-word">
-            Unlock the Sound, Welcome to BeatVault.
-          </div>
-          <div data-layer="Browse fire beats or request your own custom sound. BeatVault is where artists come to grab their soul merging beats." class="BrowseFireBeatsOrRequestYourOwnCustomSoundBeatvaultIsWhereArtistsComeToGrabTheirSoulMergingBeats" style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 20px; word-wrap: break-word">
-            Browse fire beats or request your own custom sound. BeatVault is where artists come to grab their soul merging beats.
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <?php include('../partials/footer.php'); ?>
-
   </body>
+  
 </html>

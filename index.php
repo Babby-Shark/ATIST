@@ -2,6 +2,7 @@
     <head>
         <title>ATIST</title>
         <link rel="stylesheet" href="CSS/main.css">
+        <link rel="stylesheet" href="../CSS/beatvault.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -127,41 +128,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="b_element">
-                    
-                    <a href="#">
-                        <div class="body_card_insta">
-                            <h2>Instagram adz that work</h2>
-                            <br>
-                            <div>
-                                Instagram ads are a powerful tool for promoting music, allowing artists to reach highly targeted audiences through eye-catching visuals, short videos, or Reels.
-                                With options like Stories, Feed, and Explore placements, musicians can showcase their latest tracks, drive traffic to streaming platforms, or grow their fanbase.
-                                Using tools like Meta Ads Manager, artists can set precise goals, choose target demographics, and track performance to optimize campaigns.
-                                When done right, Instagram ads help upcoming artists build visibility and connect directly with listeners who vibe with their sound.
-                            </div>
-                        </div>
-                    </a>
 
-                    <a href="#">
-                        <div class="body_card_yt">
-                            <h2>Youtube Adz</h2>
-                            <br>
-                            <div>
-                                YouTube ads are an effective way to push an artist's music by placing their songs directly in front of highly engaged viewers.
-                                With ad formats like skippable video ads, bumper ads, and YouTube Shorts, artists can showcase music videos, teasers,
-                                or behind-the-scenes content to targeted audiences based on interests, location, or viewing history. These ads can drive streams, build subscribers,
-                                and grow recognition fast—especially when paired with smart targeting and eye-catching visuals.
-                                For emerging artists, YouTube ads offer a direct route to getting heard and building a loyal fanbase across the globe.
-                            </div>
-                        </div>
-                    </a>
-
-                </div>
-            </div>
-                
-
-            <div class="b_element">
-                    
+                <div class="b_element">      
                     <a href="#">
                         <div class="body_card_website">
                             <br>
@@ -175,74 +143,55 @@
                         </div>
                     </a>
                 </div>
-            </div>
-            
-            <div>
-                <div class="b_element">
-                    <a href="#">
-                        <div class="body_card_live">
-                        
-                            <h2>Music Production in Ableton</h2>
-                            <br>
-                            <div>
-                                A music production course in Ableton Live teaches aspiring producers how to create, record, mix,
-                                and master music using Ableton’s unique session and arrangement views.
-                                Students learn the fundamentals of beat making, sound design with built-in instruments like Wavetable and Operator,
-                                and how to use effects such as EQ Eight, Glue Compressor, and Reverb.
-                                The course covers recording audio and MIDI, warping, clip launching, and building full tracks.
-                                It also explores creative workflows like resampling and automation.
-                                Business-focused modules introduce distribution, branding, and how to promote music through platforms like YouTube and Instagram.
-                            </div>
-                        </div>
-                    </a>
+                
+                <div data-layer="Article" class="Article" style="width: 1440px; height: 1712px; position: relative; background: black; overflow: hidden">
+                    <div data-layer="Music Production Courses" class="MusicProductionCourses" style="width: 625px; left: 80px; top: 1117px; position: absolute; color: white; font-size: 40px; font-family: Inter; font-weight: 600; line-height: 44px; word-wrap: break-word">
+                        Music Production Courses
+                    </div>
+                    <div data-layer="Images" class="Images" style="left: 80px; top: 609px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 32px; display: inline-flex">
+                        <img data-layer="Image" class="Image" style="width: 624px; height: 436px; position: relative; border-radius: 8px" src="Resources/images/portrait-young-man-using-laptop-while-sitting-sofa-home_1048944-14052773.jpeg" />
+                        <img data-layer="Image" class="Image" style="width: 624px; height: 436px; position: relative; border-radius: 8px" src="Resources/images/youtube-ads.png" />
+                    </div>
+                
+                    <div data-layer="Paragraph" class="Paragraph" style="width: 842px; left: 296px; top: 34px; position: absolute; color: white; font-weight: 300; line-height: 30px; word-wrap: break-word">
+                        Instagram ads are a powerful tool for promoting music, allowing artists to reach highly targeted audiences through eye-catching visuals, short videos, or Reels.<br/>With options like Stories, Feed, and Explore placements, musicians can showcase their latest tracks, drive traffic to streaming platforms, or grow their fan-base.<br/>Using tools like Meta Ads Manager, artists can set precise goals, choose target demographics, and track performance to optimize campaigns.<br/>When done right, Instagram ads help upcoming artists build visibility and connect directly with listeners who vibe with their sound.<br/><br/>YouTube ads are an effective way to push an artist's music by placing their songs directly in front of highly engaged viewers.<br/>With ad formats like skippable video ads, bumper ads, and YouTube Shorts, artists can showcase music videos, teasers, or behind-the-scenes content to targeted audiences based on interests, location, or viewing history. These ads can drive streams, build subscribers, and grow recognition fast—especially when paired with smart targeting and eye-catching visuals.<br/>For emerging artists, YouTube ads offer a direct route to getting heard and building a loyal fanbase across the globe.
+                    </div>
                     
-                    <a href="#">
-                        <div class="body_card_FL">
-
-                            <h2>Music Production in FL Studio</h2>
-                            <br>
-                            <div>
-                                A music production course in FL Studio guides upcoming producers through the full process of making music with one of the most intuitive DAWs.
-                                Students learn how to compose using the Piano Roll, build beats in the Step Sequencer, and arrange full tracks in the Playlist view.
-                                The course includes sound design with plugins like Sytrus and FLEX, mixing with the Mixer, and using effects such as Fruity Parametric EQ 2 and Maximus.
-                                It also covers automation, sampling, and exporting for release.
-                                Additional lessons focus on artist branding, marketing on social platforms,
-                                and preparing music for digital distribution.
+                    <div data-layer="Cards" class="Cards" style="left: 81px; top: 1209px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 32px; display: inline-flex">
+                        <div data-layer="Card" class="Card" style="width: 404px; height: 434px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
+                            <img data-layer="Image" class="Image" style="align-self: stretch; flex: 1 1 0; position: relative; width: 400px; height: 300px; background: black; border-radius: 8px" src="Resources/images/Music Production.jpg"/>
+                            <div data-layer="Copy" class="Copy" style="align-self: stretch; flex-direction: column; justify-content: center; align-items: flex-start; gap: 4px; display: flex">
+                                <div data-layer="Music Production in Ableton" class="MusicProductionInAbleton" style="align-self: stretch; white: black; font-size: 20px; font-family: Inter; font-weight: 500; line-height: 30px; word-wrap: break-word">
+                                    Music Production in Ableton
+                                </div>
+                                <div data-layer="Larious Beats" class="LariousBeats" style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 20px; font-family: Inter; font-weight: 500; line-height: 30px; word-wrap: break-word">
+                                    Larious Beats
+                                </div>
                             </div>
                         </div>
-                    </a>
-                    
-                    <a href="#">
-                        <div class="body_card_ProTools">
-
-                            <h2>Mixing and Mastering in Pro Tools</h2>
-                            <br>
-                            <div>
-                                A mixing and mastering course in Pro Tools teaches artists and engineers how to professionally balance, enhance
-                                and finalize their music using one of the industry’s leading DAWs.
-                                Students learn how to organize sessions, apply EQ, compression, reverb, and other effects to shape a clean, dynamic mix.
-                                The course also covers advanced techniques like bus routing, automation, vocal processing, stereo imaging.
-                                In the mastering phase, students explore loudness optimization, final EQ, limiting, and preparing tracks for digital platforms.
+                        <div data-layer="Card" class="Card" style="width: 404px; height: 434px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
+                            <img data-layer="Image" class="Image" style="align-self: stretch; flex: 1 1 0; position: relative; width: 400px; height: 300px; background: black; border-radius: 8px" src="Resources/images/side-view-musicians-working-studio_23-2150265051.jpeg" />
+                            <div data-layer="Copy" class="Copy" style="align-self: stretch; flex-direction: column; justify-content: center; align-items: flex-start; gap: 4px; display: flex">
+                                <div data-layer="Mixing and Matering" class="MixingAndMatering" style="align-self: stretch; color: white; font-size: 20px; font-family: Inter; font-weight: 500; line-height: 30px; word-wrap: break-word">
+                                    Mixing and Matering
+                                </div>
+                                <div data-layer="Larious Beats" class="LariousBeats" style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 20px; font-family: Inter; font-weight: 500; line-height: 30px; word-wrap: break-word">
+                                    Larious Beats
+                                </div>
                             </div>
                         </div>
-                    </a>
-                </div>
-
-
-                <div class="b_element">
-
-                    <a href="#">
-                        <div class="body_card_logic">
-
-                            <h2>Recording In Logic Pro</h2>
-                            <br>
-                            <div>
-                                A recording course in Logic Pro teaches artists how to capture high-quality audio using one of the most powerful and user-friendly DAWs available.
-                                Students learn how to set up audio and MIDI tracks, properly use microphones and interfaces, and record vocals and instruments with clarity.
-                                It also introduces signal flow and session organization to ensure efficient workflows.
+                        <div data-layer="Card" class="Card" style="width: 404px; height: 434px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
+                            <img data-layer="Image" class="Image" style="align-self: stretch; flex: 1 1 0; position: relative; width: 400px; height: 300px; background: black; border-radius: 8px" src="Resources/images/sound-designer-recording-his-electronic-piano-notes-home-studio_482257-97859.jpeg"/>
+                            <div data-layer="Copy" class="Copy" style="align-self: stretch; flex-direction: column; justify-content: center; align-items: flex-start; gap: 4px; display: flex">
+                                <div data-layer="FL Studio Beginner" class="FlStudioBeginner" style="align-self: stretch; color: white; font-size: 20px; font-family: Inter; font-weight: 500; line-height: 30px; word-wrap: break-word">
+                                    FL Studio Beginner
+                                </div>
+                                <div data-layer="Nase Avatar" class="NaseAvatar" style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 20px; font-family: Inter; font-weight: 500; line-height: 30px; word-wrap: break-word">
+                                    Nase Avatar
+                                </div>
                             </div>
                         </div>
-                    </a> 
+                    </div>
                 </div>
             </div>
         </div>
