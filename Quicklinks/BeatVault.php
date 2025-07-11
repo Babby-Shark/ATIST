@@ -57,7 +57,7 @@
       </div>
       <div data-layer="Cards" class="Cards" style="width: 1280px; left: 80px; top: 3188px; position: absolute; justify-content: flex-start; align-items: center; gap: 31px; display: inline-flex">
         
-        <a href="../subpages/beats.php">
+        <a href="../subpages/beats.php" target="_blank" rel="noopener noreferrer">
           <div data-layer="Card" class="bv-Card" style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 32px; display: inline-flex">
           <img data-layer="Image" class="Image" style="align-self: stretch; height: 341px; position: relative; border-radius: 8px" src="../Resources/images/featured1.jpeg" />
           <div data-layer="Copy" class="Copy" style="width: 548.44px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">

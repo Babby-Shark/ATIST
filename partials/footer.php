@@ -9,7 +9,7 @@
                         <li><a href="#">Mixing and Mastering</a></li>
                         <li><a href="#">Instrumenalists for hire</a></li>
                         <li><a href="#">Indie label registration</a></li>
-                        <li><a href="Quicklinks/BeatVault.php">BeatVault</a></li>
+                        <li><a href="Quicklinks/BeatVault.php" target="_blank" rel="noopener noreferrer">BeatVault</a></li>
                     </ul>
                 </div>
                 <div>
