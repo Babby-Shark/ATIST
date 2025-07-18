@@ -13,3 +13,5 @@ Start app
 
 Start npm
     - npm start
+
+NOTE; Tutorials aboout shutil, os python modules.
