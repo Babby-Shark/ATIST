@@ -362,6 +362,25 @@
         </div>
       </div>
     </div>
+
+    <div id="image-gallery"></div>
+
+  <script>
+  fetch("http://localhost:8000/images")
+    .then(res => res.json())
+    .then(data => {
+      const gallery = document.getElementById("image-gallery");
+      data.forEach(image => {
+        const img = document.createElement("img");
+        img.src = `http://localhost:8000${image.url}`;
+        img.alt = image.filename;
+        img.width = 300;
+        gallery.appendChild(img);
+      });
+    });
+  </script>
+
+
   <script src="JS/beats.js"></script>
   </body>
 </html>
